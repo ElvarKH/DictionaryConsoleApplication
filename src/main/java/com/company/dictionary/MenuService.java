@@ -100,6 +100,7 @@ public class MenuService {
                 if (counter >= 3) {
                     System.err.println("\nLogin failed! Exited the System...");
                     sleep2Seconds();
+                    sleep2Seconds();
 
                     System.exit(-1);
                 } else {
