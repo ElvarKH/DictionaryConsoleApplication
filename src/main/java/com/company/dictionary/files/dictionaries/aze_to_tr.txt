@@ -1,0 +1,4 @@
+salam=merhaba
+necesen=nasilsin
+torpaq=toprak
+sual=soru
