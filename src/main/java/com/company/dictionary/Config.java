@@ -31,7 +31,7 @@ public class Config {
         }
 
 
-        // load dictionaries (map) from file (dictionaries)
+        // load dictionaries (list) from file (dictionaries)
         File dir = new File(BASE_PATH + "dictionaries\\");  // dictionaries dir.
         File[] files = dir.listFiles();
 

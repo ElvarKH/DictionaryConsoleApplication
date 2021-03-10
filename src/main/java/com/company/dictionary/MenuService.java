@@ -67,7 +67,8 @@ public class MenuService {
 
         switch (menu) {
             case 1:
-                DictionaryService.showDictionaries(true);
+                DictionaryService
+                        .showDictionaries(true);
                 break;
 
             case 2:
@@ -155,15 +156,18 @@ public class MenuService {
 
         switch (menu) {
             case 1:
-                AdminService.createLogin();
+                AdminService
+                        .createLogin();
                 break;
 
             case 2:
-                DictionaryService.createDictionary();
+                DictionaryService
+                        .createDictionary();
                 break;
 
             case 3:
-                DictionaryService.showDictionaries(true);
+                DictionaryService
+                        .showDictionaries(true);
                 break;
 
             case 4:
@@ -187,11 +191,13 @@ public class MenuService {
                 break;
 
             case 8:
-                DictionaryService.deleteWord(DictionaryService.selectDictionary());
+                DictionaryService
+                        .deleteWord(DictionaryService.selectDictionary());
                 break;
 
             case 9:
-                DictionaryService.deleteDictionary();
+                DictionaryService
+                        .deleteDictionary();
                 break;
 
             case 10:
