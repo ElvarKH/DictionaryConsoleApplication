@@ -1,4 +1,5 @@
 eight=sekkiz
 tree=agac
 multiplication=vurma
-divide by=bolmehuman=insan
+divide by=bolme
+human=insan
